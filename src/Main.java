@@ -21,7 +21,7 @@ public class Main {
 
 
         try{
-            FileTricks.copyFilesByExp(folderIn,folderOut,"jpg");
+            FileTricks.copyFilesByExp(folderIn,folderOut,"mmm");
         }catch (IOException e){
             e.printStackTrace();
         }

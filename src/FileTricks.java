@@ -21,10 +21,10 @@ public class FileTricks {
                 copyFile(files[i], fileCopyAdress);
                 fileCopy += 1;
             }
-            else {
-                System.out.println("there is no file with such expansion");
-            }
 
+        }
+        if(fileCopy==0){
+            System.out.println("there is no file with such expansion");
         }
 
     }
